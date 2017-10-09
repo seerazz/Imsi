@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ascend.wangfeng.imsi">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sim_card"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/sim_card"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+                  android:label="@string/imsi">
+        </activity>
+        <activity android:name=".wifi.WifiActivity" android:label="@string/wifi">
+
+        </activity>
+        <activity android:name=".navigation.NavigationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

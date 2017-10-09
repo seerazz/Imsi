@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">工具集</string>
+    <string name="imsi">SIM信息 </string>
+    <string name="wifi">万能钥匙密码本</string>
+    <string name="cart_1">卡槽1</string>
+    <string name="cart_2">卡槽2</string>
+    <string name="ps">若Android 版本低于6.0,只读默认卡槽信息</string>
+    <string name="empty_password">null</string>
+    <string name="wifi_not_exsit">不存在万能钥匙密码本</string>
+    <string name="wifi_title">万能钥匙密码本(需root)</string>
+    <string name="imsi_title">Imsi信息</string>
+</resources>
